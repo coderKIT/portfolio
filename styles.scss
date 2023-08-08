@@ -1,0 +1,72 @@
+:root{
+  --body-title: var(#9F8772);
+  --body-text: var(#665A48);
+}
+
+  html{
+  background-color: #EDE4E0;
+}
+
+  body{
+  margin: 0;
+}
+
+  h1 {
+  font-family: 'PT Mono', monospace;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: var(--body-title);
+  -webkit-font-smoothing: antialiased;
+}
+
+  p {
+  font-family: 'PT Mono', monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: var(--body-text);
+  -webkit-font-smoothing: antialiased;
+  opacity: 1;
+}
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/freepik.jpg");
+    margin: 0, auto;
+    max-height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+    padding: 12rem;
+  }
+  
+.hero-image ::after{
+  content: '';
+  position:absolute;
+  z-index: -1;
+  inset: 0;
+  background:whitesmoke;
+  opacity:0.3
+}
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .introduction {
+    margin:1rem 2.8rem 1.75rem;
+    opacity: 100%;
+    position:absolute;
+    place-content: center;
+    justify-content: center;
+  }
