@@ -1,6 +1,8 @@
 :root{
   --body-title: var(#9F8772);
   --body-text: var(#665A48);
+  --cream: var(#EDE4E0);
+  --green: var(#C8DBBE);
 }
 
   html{
@@ -69,4 +71,26 @@
     position:absolute;
     place-content: center;
     justify-content: center;
+  }
+
+  .np-table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 3rem;
+    background-color: var(--cream);
+  }
+
+  .np-tr {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3rem;
+  }
+
+  .np-td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3rem;
+    font-size: 75px;
+    color: var(--green);
   }
