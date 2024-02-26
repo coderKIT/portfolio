@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+  width: 30px;  
+}
+
+.nav-bar {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 20px;
+    max-height: 10%;
+    width:100%;
+}
+
+.nav-bar-list {
+    font-size: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 20px;
+    list-style: none;
+    margin-left: auto;
+    align-content: space-around;
+    padding: 0 50px;
+}

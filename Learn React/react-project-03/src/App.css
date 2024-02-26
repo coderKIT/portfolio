@@ -1,0 +1,40 @@
+#root {
+  min-width: 1281px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 2em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.navbar {
+  display:inline-flex;
+  margin: 0;
+  max-height: 4em;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar > h3 {
+  margin-right: auto;
+}
+
+.main--form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  padding: 36px;
+}
+
+.main--form > label {
+  align-self: end;
+}
+
+.form--button {
+  grid-column: -1 / 1;
+  border:1px solid white;
+  background-color: dimgray;
+}
